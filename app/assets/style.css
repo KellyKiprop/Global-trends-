@@ -1,0 +1,65 @@
+/* Custom CSS for Global Cost of Living Dashboard */
+
+/* Card hover effects */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Custom header styling */
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* Graph containers */
+.graph-container {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Custom button styles */
+.btn-custom {
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+/* Metric cards */
+.metric-card {
+    text-align: center;
+    border: none !important;
+    border-radius: 10px !important;
+}
+
+.metric-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+/* Tab styling */
+.nav-tabs .nav-link.active {
+    font-weight: 600;
+    border-bottom: 3px solid #0d6efd;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .metric-value {
+        font-size: 2rem;
+    }
+}
