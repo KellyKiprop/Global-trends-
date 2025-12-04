@@ -28,8 +28,8 @@ app = dash.Dash(
 app.title = "Global Cost of Living Dashboard"
 
 # Import and create layout
-from layouts import create_layout
-from callbacks import register_callbacks
+from app.layouts import create_layout
+from app.callbacks import register_callbacks
 
 # Create layout
 app.layout = create_layout()
@@ -50,4 +50,5 @@ if __name__ == '__main__':
         host='0.0.0.0',
         port=port,
         debug=True
+
     )
